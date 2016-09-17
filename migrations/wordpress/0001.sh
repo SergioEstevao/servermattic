@@ -1,3 +1,4 @@
 cd /root
-git clone https://github.com/WordPress/WordPress.git
-cp -Rf WordPress /var/www
+rm -Rf WordPress
+git clone --depth 1 https://github.com/WordPress/WordPress.git
+cp -Rf WordPress/* /var/www
