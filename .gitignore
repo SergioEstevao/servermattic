@@ -1,0 +1,28 @@
+# Preloaded or system-generated stuff
+.bash_history
+.bashrc
+.profile
+.ssh/
+.viminfo
+
+# nylen-dotfiles
+.bash_aliases
+.bashrc_nylen_dotfiles
+.gitconfig
+.gitignore_global
+.inputrc
+.tmux.conf
+.vim/
+.vimrc
+dotfiles/
+template.crontab
+
+# servermattic-generated stuff
+roles/
+services/
+
+# other
+.bashrc_local
+WordPress/
+bin/secure-database.sh
+servermattic/
