@@ -7,6 +7,6 @@ git checkout 4.6.1
 cp -var /root/WordPress /var/www
 rm -r /var/www/.git
 
-chown -R nobody:nobody /var/www
+chown -R nobody:nogroup /var/www
 
 service ngnix restart
