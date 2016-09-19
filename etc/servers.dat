@@ -1,7 +1,7 @@
 # (sid):(dc):(wan_ip):(host_name):(lan_ip):(role1,role2):(price):
 #
 # Server in Dallas, Texas
-XEN-953:DFW:192.0.95.21:web1.g1.gm.a8c.com:192.0.95.21:nginx-base,nginx-php,nylen-dotfiles,wp-web:0:
-XEN-953:DFW:192.0.95.23:web2.g1.gm.a8c.com:192.0.95.23:nginx-base,nginx-php,nylen-dotfiles,wp-web:0:
+XEN-953:DFW:192.0.95.21:web1.g1.gm.a8c.com:192.0.95.21:nginx-base,nginx-php,nylen-dotfiles,wp-web,nginx-lb:0:
+XEN-953:DFW:192.0.95.23:web2.g1.gm.a8c.com:192.0.95.23:nginx-base,nginx-php,nylen-dotfiles,wp-web,nginx-lb:0:
 XEN-953:DFW:192.0.95.22:db1.g1.gm.a8c.com:192.0.95.22:mysql-base,nylen-dotfiles:0:
 XEN-953:DFW:192.0.95.24:db2.g1.gm.a8c.com:192.0.95.24:mysql-base,nylen-dotfiles:0:
